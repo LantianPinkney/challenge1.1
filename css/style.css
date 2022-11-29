@@ -31,11 +31,7 @@ h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
-
-header div {
+header {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -43,7 +39,7 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+ul {
     list-style-type: none;
 }
 
@@ -75,6 +71,10 @@ p {
 }
 
 /* Class Selectors */
+
+.seo {
+    color: #d9dcd6;
+}
 
 .hero {
     height: 800px;
